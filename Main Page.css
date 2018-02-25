@@ -1,0 +1,56 @@
+body{
+  background-image: url("https://i.redd.it/s5mlymu2g5101.png");
+  background-color: #cccccc;
+}
+html{
+  cursor: url("Sonic3D HD.ico"), default;
+}
+
+ul{
+  background-color: rgb(255,255,0);
+  font-family: "Comic Sans MS";
+  border-style:groove;
+  border-width: 100px;
+  border-color: rgb(255, 0, 0)
+}
+li {
+  animation-duration: 20s;
+  animation-name: woopwoop;
+
+}
+a:link{
+  cursor: url("Soock.ico"), pointer;
+}
+
+.sinterklaas{
+  border-style:double;
+  border-width: 4px;
+  border-color: rgb(255,0,0)
+}
+.Bepis {
+  border-style:groove;
+  border-width: 6px;
+  border-color: rgb(255,0,0)
+}
+.image {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    width: 300px;
+    height: 240px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@keyframes woopwoop {
+  from {
+    margin-left: 100%;
+    width: 300%;}
+  to {
+    margin-left: 0%;
+    width: 100%;}}

@@ -1,0 +1,112 @@
+body {
+    background-image: url("https://vignette.wikia.nocookie.net/septimusheap/images/1/17/Parchment-bg.jpg/revision/latest?cb=20170916233117");
+
+}
+h1 {text-align: left;
+  font-family: Times;
+   color: rgb(5,5,5);
+   margin-left: 75px;
+
+   ;}
+
+h2 {text-align: left;
+    font-family: "Courier New";
+    color: rgb(5,5,10);
+    font-size: 250%;
+    margin-left: 200px;
+}
+h3 {border-style: solid;
+  border-color: rgba(155,100,50, 0.5);
+  background-color: rgba(200,150,5,0.9);
+  text-align: center;
+  font-family: "Courier New";
+}
+h4 {text-align: center;
+    font-family: "Courier New";
+    font-size: 150%;
+}
+#container {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+
+
+}
+table{
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(155,100,50, 0.8);
+  background-color: rgba(200,150,5,0.2);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(155,100,50, 0.5);
+}
+td{
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(155,100,50, 0.5);
+}
+.box {
+  min-height: 700px;
+}
+
+#centrum {
+  background-color: rgba(155,100,50, 0.1);
+  border-width: 6px;
+  border-color: rgba(200,130,60,0.2);
+  border-style:solid;
+}
+#linkerkolom {
+  background-color: rgb(200,155,75);
+  border-width: 6px;
+  border-color: rgba(150,100,50,0.5);
+  border-style:double;
+}
+#rechterkolom {
+  background-color: rgb(200,155,75);
+  border-width: 6px;
+  border-color: rgba(150,100,50,0.5);
+  border-style:double;
+}
+
+p{
+  color: rgb(10, 10, 50);
+  font-family: Arial;
+  background-color: rgba(100, 115, 100, 0.3);
+  text-align: justify;
+  border-style:double;
+  border-width: 3px;
+  border-color: rgb(175, 150, 50);
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+
+}
+li{
+  list-style-type: circle;
+  margin-bottom: 10px;
+  text-align: left;
+}
+a:link{
+  color: rgb(0,0,0);
+  text-decoration: none;
+}
+a:visited{
+  color: rgb(0,0,0)
+}
+a:hover{
+  color: rgb(200,100,50);
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: rgba(120, 60, 15, 0.5)
+}
+.menutje{
+  margin-left: 10px;
+  margin-right: 10px;
+}
